@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer(){
     return (
-        <>
+        <footer>
             <div className="FAQ">
                 <a href="#">Meta</a>
                 <a href="#">About</a>
@@ -34,7 +34,7 @@ function Footer(){
                     &copy; 2022 Instagram from Meta
                 </h4>
             </div>
-        </>
+        </footer>
     )
 }
 

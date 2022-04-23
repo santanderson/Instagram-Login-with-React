@@ -6,47 +6,38 @@ import slide2 from "../assets/slide2.png";
 import playstore from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
 
-function Main(){
+function Main() {
     return (
         <main>
 
-                <div id="register">
-                    <div className="ilustration">
-                        <img src={slide1}/>
-                        <img src={slide2}/>
-                    </div>
+            <div id="ilustration">
+                <img src={slide1} />
+            </div>
 
-                    <form>
-                        <img id="logo" src={logo}/>
-                        <input placeholder="Phone number, username, or email" type="text"/>
-                        <input placeholder="Password" type="text"/>
-                        <button id="button">Log In</button>
-                    </form>
-                </div>
+            <form>
+                <img id="logo" src={logo} />
+                <input placeholder="Phone number, username, or email" type="text" />
+                <input placeholder="Password" type="text" />
+                <button>Log In</button>
 
-                <div id="links">
+                <div id="or">
 
-                    <div id="dv1">OR</div>
-
-                    <div id="dv2">
-                        <a href="#" id="fcbk-login">Log in with Facebook</a>
-                        <a href="#">Forgot Password?</a>
-                    </div>
-
-                    <div id="dv3">
-                        <div id="signup">Don`t have an account? <a href="#">Sign up</a></div>
-
-                        <div id="download">
-                            <h4>Get the app</h4>
-                            <div>
-                                <a href="#"><img src={appstore}/></a>
-                                <a href="#"><img src={playstore}/></a>
-                            </div>
-                        </div>
-                    </div>
-
+                    <h4>OR</h4>
+                    <a href="#" id="fb-login">Log in with Facebook</a>
+                    <a href="#">Forgot Password?</a>
 
                 </div>
+
+                <div id="download">
+                    <div id="signup">Don`t have an account? <a href="#">Sign up</a></div>
+                    <h4>Get the app</h4>
+                    <div>
+                        <a href="#"><img src={appstore} /></a>
+                        <a href="#"><img src={playstore} /></a>
+                    </div>
+                </div>
+
+            </form>
         </main>
     )
 }
