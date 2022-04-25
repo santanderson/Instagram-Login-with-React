@@ -12,7 +12,7 @@ main
 {
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   text-align: center;
   font-size: 14px;
@@ -26,6 +26,16 @@ main a
 #ilustration
 {
   display: none;
+  flex-flow: row nowrap;
+  margin: 45px 0px 20px;
+  width: 465px;
+}
+#ilustration .slide
+{
+  height: 540px;
+  position: relative;
+  top: 28px;
+  right: 309px;
 }
 main form
 {
@@ -164,6 +174,6 @@ footer
 @media(min-width: 875px){
   main #ilustration
   {
-    display: block;
+    display: flex;
   }
 }

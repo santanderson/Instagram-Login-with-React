@@ -1,17 +1,36 @@
 import { returnStatement } from "@babel/types";
 import React from "react";
+import { useState } from "react";
 import logo from "../assets/insta.png";
 import slide1 from "../assets/slide1.png";
 import slide2 from "../assets/slide2.png";
+import slide3 from "../assets/slide3.png";
+import slide4 from "../assets/slide4.png";
 import playstore from "../assets/playstore.png";
 import appstore from "../assets/appstore.png";
+import smartphone from "../assets/celular.png";
 
 function Main() {
+    const [slider,setSlider] = useState(slide1);
+
+    function changeSlider(){
+        if(slider == slide4) setSlider(slide1);
+        if(slider == slide3) setSlider(slide4);
+        if(slider == slide2) setSlider(slide3);
+        if(slider == slide1) setSlider(slide2);
+
+    }
+    function loop(){
+        setInterval(changeSlider, 6000);
+    }
+    loop();
+
     return (
         <main>
 
             <div id="ilustration">
-                <img src={slide1} />
+                <img src={smartphone}/>
+                <img className="slide" src={slider}/>
             </div>
 
             <form>
