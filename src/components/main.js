@@ -34,12 +34,11 @@ function Main() {
             </div>
 
             <form>
-                <img id="logo" src={logo} />
-                <input placeholder="Phone number, username, or email" type="text" />
-                <input placeholder="Password" type="text" />
-                <button>Log In</button>
-
                 <div id="or">
+                    <img id="logo" src={logo} />
+                    <input placeholder="Phone number, username, or email" type="text" />
+                    <input placeholder="Password" type="text" />
+                    <button>Log In</button>
 
                     <h4>OR</h4>
                     <a href="#" id="fb-login">Log in with Facebook</a>
