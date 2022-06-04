@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/santanderson/static/css/main.b05141c7.css",
-    "main.js": "/santanderson/static/js/main.9f7d7eb6.js",
-    "static/media/slide3.png": "/santanderson/static/media/slide3.8073c02a21c4c8fb4dc6.png",
-    "static/media/slide4.png": "/santanderson/static/media/slide4.b1eacf1f6f6f4c47a49a.png",
-    "static/media/slide2.png": "/santanderson/static/media/slide2.d40500a76647ef643b53.png",
-    "static/media/celular.png": "/santanderson/static/media/celular.d7b868078a7f6cb9112a.png",
-    "static/media/slide1.png": "/santanderson/static/media/slide1.e89970c85bfb14b63527.png",
-    "static/media/appstore.png": "/santanderson/static/media/appstore.fba0f3fadc5a9eeb92cf.png",
-    "index.html": "/santanderson/index.html",
-    "main.b05141c7.css.map": "/santanderson/static/css/main.b05141c7.css.map",
-    "main.9f7d7eb6.js.map": "/santanderson/static/js/main.9f7d7eb6.js.map"
+    "main.css": "/santanderson/Instagram-Login-with-React/static/css/main.b05141c7.css",
+    "main.js": "/santanderson/Instagram-Login-with-React/static/js/main.9d9e7c4e.js",
+    "static/media/slide3.png": "/santanderson/Instagram-Login-with-React/static/media/slide3.8073c02a21c4c8fb4dc6.png",
+    "static/media/slide4.png": "/santanderson/Instagram-Login-with-React/static/media/slide4.b1eacf1f6f6f4c47a49a.png",
+    "static/media/slide2.png": "/santanderson/Instagram-Login-with-React/static/media/slide2.d40500a76647ef643b53.png",
+    "static/media/celular.png": "/santanderson/Instagram-Login-with-React/static/media/celular.d7b868078a7f6cb9112a.png",
+    "static/media/slide1.png": "/santanderson/Instagram-Login-with-React/static/media/slide1.e89970c85bfb14b63527.png",
+    "static/media/appstore.png": "/santanderson/Instagram-Login-with-React/static/media/appstore.fba0f3fadc5a9eeb92cf.png",
+    "index.html": "/santanderson/Instagram-Login-with-React/index.html",
+    "main.b05141c7.css.map": "/santanderson/Instagram-Login-with-React/static/css/main.b05141c7.css.map",
+    "main.9d9e7c4e.js.map": "/santanderson/Instagram-Login-with-React/static/js/main.9d9e7c4e.js.map"
   },
   "entrypoints": [
     "static/css/main.b05141c7.css",
-    "static/js/main.9f7d7eb6.js"
+    "static/js/main.9d9e7c4e.js"
   ]
 }
